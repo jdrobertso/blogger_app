@@ -16,7 +16,7 @@ class ArticlesController < ApplicationController
 		@article = Article.new(article_params)
 		@article.save
 		redirect_to article_path(@article)
-		flash.notice = "Article '#{@article.title}' Created!"
+		flash.notice = "Article '#{@article.title}' Created!1"
 	end
 
 	def destroy
