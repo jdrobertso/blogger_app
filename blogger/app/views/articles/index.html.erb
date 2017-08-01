@@ -6,6 +6,7 @@
 			<%= link_to article.title, article_path(article) %>
 		</li>
 	<% end %>
-</ul>
+</ul><br /><br />
 
+<%= link_to "Search by Tag", tags_path %>
 <%= link_to "Create a New Article", new_article_path, class: "new_article" %>
